@@ -1,20 +1,16 @@
 {
-  "name": "yamplus",
+  "name": "nuxt-app",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5"
+    "nuxt": "^3.12.4",
+    "vue": "latest"
   }
 }
