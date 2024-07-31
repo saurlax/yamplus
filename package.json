@@ -8,8 +8,11 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "element-plus": "^2.7.8",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.9",
+    "element-plus": "^2.7.8"
   }
 }
