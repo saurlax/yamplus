@@ -10,6 +10,7 @@
   "dependencies": {
     "@baiducloud/qianfan": "^0.1.6",
     "axios": "^1.7.2",
+    "marked": "^13.0.3",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
