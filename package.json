@@ -8,6 +8,8 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
+    "@baiducloud/qianfan": "^0.1.6",
+    "axios": "^1.7.2",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
